@@ -37,5 +37,8 @@ CenturyLink is now a CLoud Solution Provider for Microsoft Azure. The artcle bel
 * For the time being, we expect you to be giving everyone either Owner or Contributor roles.
 * Once you have selected the role, you can begin locating and adding all the users you created into that role. 
 
+Now that you have a Microsoft Azure account you can manage it directectly from portal.azure.com or [use Microsoft Azure with Elasticbox](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/KB%20for%20Azure%20CSP%20and%20Elasticbox.md).
+
+
 
 
