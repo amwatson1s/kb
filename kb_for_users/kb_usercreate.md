@@ -1,7 +1,7 @@
 
 
 # Creating Users in Microsoft Azure
-CenturyLink is now a CLoud Solution Provider for Microsoft Azure. The artcle below allows users to create and manage other users in the thier Microsoft Azure account provided by CenturyLink. 
+CenturyLink is now a Cloud Solution Provider for Microsoft Azure. The artcle below allows users to create and manage other users in the thier Microsoft Azure account provided by CenturyLink. 
 
 1. Login to https://portal.office.com with your CSP user. If you do not have one yet click [here](https://github.com/amwatson1s/kb/blob/master/kb_for_new/new_accounts.md) for instructions.
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_users/user.png?raw=true "Logo Title Text 1")
