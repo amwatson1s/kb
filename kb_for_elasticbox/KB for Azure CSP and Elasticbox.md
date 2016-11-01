@@ -7,7 +7,7 @@ CenturyLink has partnered with Microsoft in order to make things easier for cust
 Following the steps below will allow customers to setup a Microsoft Azure Resource Management provider in Elasticbox allowing customers to create and deploy from Elasticbox into Microsoft Azure using the ARM template box.
 
 ___
-1. Login to the [Azure portal](https://portal.azure.com/) using your partner-center account ( The one that end with `onmicrosoft.com` )
+1. Login to the [Azure portal](https://portal.azure.com/) using your CenturyLink Microsoft Account ( The one that end with `onmicrosoft.com` ). If you do not have one yet click [here](https://github.com/amwatson1s/kb/blob/master/kb_for_new/new_accounts.md) for instructions.
 
 1. Create a new Azure `web application` 
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/portal.png?raw=true "Logo Title Text 1")
