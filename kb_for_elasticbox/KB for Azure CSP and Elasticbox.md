@@ -15,9 +15,11 @@ ___
 1. Copy the authorization endpoint url from Azure Portal `<oauth 2.0 authorization endpoint URL>?client_id=<application_id>` and paste it in a text-editor or a browsers adress-bar then add `?client=` at the end and finally the `application id` (click on the newly created app to see the application id) <-- You will use this URL to log-in to your app using the credentials you'll create in the next step..
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/portal2.png?raw=true)
 
-1. Log out from all Microsoft accounts or open a *Cognito tab* in Chrome then Go to the URL you obtained at step #3 and use the credentials for your Microsoft Azure account. Then click the accept button.
+1. Log out from all Microsoft accounts or open a *Cognito tab* in Chrome then Go to the URL you obtained at step #3 and use the credentials for your Microsoft Azure account. 
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/log_in_01.JPG?raw=true)
 
+1. Click the accept button
+![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/accept.png?raw=true)
 
 1. log back in in Azure portal and go to subscriptions tab, select the *Access Control (IAM)* and then select the *+ Add* on the new screen..
  1. select *Contributor* role
