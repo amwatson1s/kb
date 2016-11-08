@@ -21,7 +21,7 @@ ___
 1. Click the accept button
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/accept.png?raw=true)
 
-1. Verify the application was input in the Azure Active Directory by checking the application details.
+1. Verify the application was inserted in the Azure Active Directory by checking the application details.
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/verify.png?raw=true)
 
 1. log back in in Azure portal and go to subscriptions tab, select the *Access Control (IAM)* and then select the *+ Add* on the new screen..
