@@ -9,7 +9,7 @@ Following the steps below will allow customers to setup a Microsoft Azure Resour
 ___
 1. Login to the [Azure portal](https://portal.azure.com/) using your CenturyLink Microsoft Account ( The one that end with `onmicrosoft.com` ). If you do not have one yet click [here](https://github.com/amwatson1s/kb/blob/master/kb_for_new/new_accounts.md) for instructions.
 
-1. Create a new Azure application in the Azure Axtive Directory. <b>Be sure to select "Native" when selecting the application type.</b>
+1. Create a new Azure application in the Azure Active Directory. <b>Be sure to select "Native" when selecting the application type.</b>
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/portal.png?raw=true "Logo Title Text 1")
 
 1. Verify the application was inserted in the Azure Active Directory by checking the application details.
