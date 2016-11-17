@@ -21,16 +21,16 @@ ___
 And click OK!
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/portal4.png?raw=true)
 
-1. Return to the "App Registrations" panel in Step 3. Select the app, and select "Keys" in the "Settings" panel. Give the key any name and expiration date, and select "Save." The value of the key will be generated. copy and keep the value (secret key) as you won't see it anymore once you navigate away!
+1. Return to the "App Registrations" panel in Step 2. Select the app, and select "Keys" in the "Settings" panel. Give the key any name and expiration date, and select "Save." The value of the key will be generated. copy and keep the value (secret key) as you won't see it anymore once you navigate away!
 
 1. Login to Elasticbox and create a new Azure resource manager provider with the information below.<br>
 Subscription ID: The active subscription ID<br>
-Client ID: The App ID used in Step 3<br>
-Secret: The key value generated in Step 7<br>
+Client ID: The Application ID<br>
+Secret: The key value generated in Step 5<br>
 Tenant: Name of Customer URL (everything after @)<br>
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/eb.png?raw=true)
 
-9. Finished! Now it's time to start deploying and managing boxes in Elasticbox. If you cannot find a specific template that you are looking for in Elasticbox be sure to check out the [Azure github quickstart templates](https://github.com/Azure/azure-quickstart-templates).<br><br>
+1. Finished! Now it's time to start deploying and managing boxes in Elasticbox. If you cannot find a specific template that you are looking for in Elasticbox be sure to check out the [Azure github quickstart templates](https://github.com/Azure/azure-quickstart-templates).<br><br>
 
 Developers can also creating a Microsoft Azure ARM provider in elasticbox using the Azure CLI and the steps below:<br><br>
 
