@@ -15,9 +15,9 @@ ___
 1. Verify the application was inserted in the Azure Active Directory by checking the application details.
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/verify.png?raw=true)
 
-1. log back in in Azure portal and go to subscriptions tab, select the *Access Control (IAM)* and then select the *+ Add* on the new screen..
+1. Log back in to the Azure portal and go to subscriptions tab, select the *Access Control (IAM)* and then select the *+ Add* on the new screen..
  1. select *Contributor* role
- 2. select the user you just created in step #4!
+ 2. Search for the application you just created in step #2!
 And click OK!
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/portal4.png?raw=true)
 
