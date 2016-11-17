@@ -32,24 +32,3 @@ Tenant: Name of Customer URL (everything after @)<br>
 
 1. Finished! Now it's time to start deploying and managing boxes in Elasticbox. If you cannot find a specific template that you are looking for in Elasticbox be sure to check out the [Azure github quickstart templates](https://github.com/Azure/azure-quickstart-templates).<br><br>
 
-Developers can also creating a Microsoft Azure ARM provider in elasticbox using the Azure CLI and the steps below:<br><br>
-
-Step 1: login to azure CLI
-`azure login -u [username]@[company].onmicrosoft.com --tenant [company].onmicrosoft.com`
-
-Step 2: Create azure ad application
-`azure ad app create --name "[appname]" --home-page "http://[appname]" --identifier-uris "http://[appname]" --password "[password for app]"`
-
-Step 3: Add a service principle to the AppId that was just created<br>
-`azure ad sp create -a [app id]`
-
-Step 4: List out the current subcriptions and find the active one<br>
-`azure account list`
-
-Step 5: Grant permissions to the service principle that was created
-`azure role assignment create --objectId [object id for app] -o Owner -c /subscriptions/[subscription id]/`
-
-Step 6: Test login with service principle
-`azure login -u "[app id]" -p "[app password" --service-principal --tenant "[company].onmicrosoft.com"`
-
-Step 7: Login to Elasticbox and create a service provider.
