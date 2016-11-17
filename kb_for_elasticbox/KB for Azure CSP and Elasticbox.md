@@ -9,17 +9,8 @@ Following the steps below will allow customers to setup a Microsoft Azure Resour
 ___
 1. Login to the [Azure portal](https://portal.azure.com/) using your CenturyLink Microsoft Account ( The one that end with `onmicrosoft.com` ). If you do not have one yet click [here](https://github.com/amwatson1s/kb/blob/master/kb_for_new/new_accounts.md) for instructions.
 
-1. Create a new Azure `web application` 
+1. Create a new Azure application in the Azure Axtive Directory. <b>Be sure to select "Native" when selecting the application type.</b>
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/portal.png?raw=true "Logo Title Text 1")
-
-1. Copy the authorization endpoint url from Azure Portal `<oauth 2.0 authorization endpoint URL>?client_id=<application_id>` and paste it in a text-editor or a browsers adress-bar then add `?client=` at the end and finally the `application id` (click on the newly created app to see the application id) <-- You will use this URL to log-in to your app using the credentials you'll create in the next step..
-![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/portal2.png?raw=true)
-
-1. Log out from all Microsoft accounts or open a *Cognito tab* in Chrome then Go to the URL you obtained at step #3 and use the credentials for your Microsoft Azure account. 
-![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/log_in_01.JPG?raw=true)
-
-1. Click the accept button
-![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/accept.png?raw=true)
 
 1. Verify the application was inserted in the Azure Active Directory by checking the application details.
 ![alt text](https://github.com/amwatson1s/kb/blob/master/kb_for_elasticbox/verify.png?raw=true)
